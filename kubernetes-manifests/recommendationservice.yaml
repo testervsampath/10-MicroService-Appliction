@@ -41,7 +41,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: recommendationservice
+        image: sampathkv/recommendationservice
         ports:
         - containerPort: 8080
         readinessProbe:
